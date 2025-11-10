@@ -1,6 +1,16 @@
-let FirstNum = prompt("Enter Any Choose Number.");
-let SecondNum = prompt("Enter Than Any Choose Number.");
 
-let Operator = prompt("Any Sign Use : + , - , x , ÷ ");
+// Task 1
+let num1 = Number(prompt("Enter first number:"));
+let num2 = Number(prompt("Enter second number:"));
 
-let Result = alert(FirstNum, "+" , SecondNum);
+
+// Airthmetic Operators
+
+console.log("Addition : ", num1 + num2);
+console.log("Subtraction : ", num1 - num2);
+console.log("Multiplication : ", num1 * num2);
+console.log("Division : ", num1 / num2);
+console.log("Remainder : ", num1 % num2);
+
+
+
