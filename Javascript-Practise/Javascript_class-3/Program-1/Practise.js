@@ -26,7 +26,6 @@ console.log("Value: " + B_Form + ", " + "| " + "Type : " + typeof B_Form);
 
 
 // This is Symbol Type 
-
 let sign = Symbol("@");
 console.log("Value: " , sign , ", " , "| " , "Type : " , typeof sign);
 
