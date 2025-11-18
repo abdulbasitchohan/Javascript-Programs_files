@@ -38,6 +38,13 @@ if (SavedPin === UserPin) {
 
 }
 
+if (choice === "2") {
+    let deposit;
+    deposit = prompt("Enter Your Deposit Amount!");
+} else {
+    
+}
+
 if (choice === "4") {
     alert("Thanks For Use JS ATM.");
  }else{}

@@ -31,8 +31,17 @@
 // }
 
 
-let num = 0;
-for (num; num <= 50; num++) {
-    console.log(num + num);
-    
+// let num = 0;
+// for (num; num <= 50; num++) {
+//     console.log(num + num);    
+// }
+
+
+let sum = 0;
+
+// loop from 1 to 50
+for (let num = 1; num <= 50; num++) {
+    sum = sum + num; // or sum += i
 }
+
+console.log("Sum of first 50 natural numbers:", sum);
