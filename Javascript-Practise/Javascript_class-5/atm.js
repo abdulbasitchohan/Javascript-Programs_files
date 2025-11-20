@@ -37,7 +37,6 @@ if (SavedPin === UserPin) {
         if (choice === "3") {
             let DepositAmount; //Deposit Variable
             DepositAmount = Number(prompt("Enter your Withdraw Amount!"));
-
             balance += DepositAmount;
             alert("✅Deposit Process Successful 🎉");
             alert("Your New Balance: $" + balance);
