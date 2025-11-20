@@ -52,7 +52,7 @@ if (SavedPin === UserPin) {
 
 
         } else {
-            alert("Incorrect PIN Code ❗ ");
+            alert("Incorrect PIN Code ❗");
         }
 
 
