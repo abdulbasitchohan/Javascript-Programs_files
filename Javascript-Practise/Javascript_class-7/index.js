@@ -29,3 +29,21 @@
 
 // }
 
+// let mutiply = 5;
+
+//     while (mutiply <= 50) {
+//         mutiply+=5;
+//         console.log(`${mutiply}`);
+//     }
+
+// const password = 321;
+// let UserPassword;
+
+// while (password !== UserPassword) {
+//     UserPassword = +prompt(`Enter Your Password ❗`);
+//     if (password === UserPassword) {
+//         alert("Access Granted ✅");
+//     }
+// }
+
+
