@@ -29,12 +29,16 @@
 
 // }
 
+
+
 // let mutiply = 5;
 
 //     while (mutiply <= 50) {
 //         mutiply+=5;
 //         console.log(`${mutiply}`);
 //     }
+
+
 
 // const password = 321;
 // let UserPassword;
@@ -46,4 +50,25 @@
 //     }
 // }
 
+
+// const SavedNum = 44;
+// let GuessNum;
+// GuessNum = prompt("Enter Guess Number for 1 To 100");
+// while (SavedNum !== GuessNum) {
+
+//     if (SavedNum !== GuessNum) {
+//         GuessNum = +prompt(`They Are Wrong Try again ❗`)
+//     }
+// if (SavedNum === GuessNum) {
+//     alert(`Congratulation 🎉 you Guess Wright Number✅`);
+// }
+// }
+
+let Alarm;
+const AlarmStop = "Stop"; 
+while (Alarm !== AlarmStop) {
+    alert("Wakup up ❗ ⏰");
+    Alarm = prompt(`Type " Stop ❗ " to turn off the alarm.`);
+
+}
 
