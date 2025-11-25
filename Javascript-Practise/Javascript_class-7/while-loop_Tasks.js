@@ -64,11 +64,11 @@
 // }
 // }
 
+
 let Alarm;
 const AlarmStop = "Stop"; 
 while (Alarm !== AlarmStop) {
     alert("Wakup up ❗ ⏰");
     Alarm = prompt(`Type " Stop ❗ " to turn off the alarm.`);
-
 }
 
