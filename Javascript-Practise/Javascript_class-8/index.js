@@ -22,3 +22,8 @@
 // }
 // let result = MaxNum(1 , 2 ,3 );
 // console.log(result);
+
+
+function name(params) {
+    
+}

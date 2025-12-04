@@ -1,8 +1,8 @@
 
 // This is Balance for user 
 let balance = 2000;
+const SavedPin = 123;
 
-const SavedPin = 123
 
 alert("Welcome To JS ATM.➡");
 let UserPin = Number(prompt("Enter Your PIN Code."));
@@ -34,25 +34,23 @@ if (SavedPin === UserPin) {
             alert("Your New Balance: $" + balance);
         }
     }
-        if (choice === "3") {
-            let DepositAmount; //Deposit Variable
-            DepositAmount = Number(prompt("Enter your Withdraw Amount!"));
-            balance += DepositAmount;
-            alert("✅Deposit Process Successful 🎉");
-            alert("Your New Balance: $" + balance);
-            alert("Thanks for Use JS ATM.")
-            } else {
-            }
+    if (choice === "3") {
+        let DepositAmount; //Deposit Variable
+        DepositAmount = Number(prompt("Enter your Withdraw Amount!"));
+        balance += DepositAmount;
+        alert("✅Deposit Process Successful 🎉");
+        alert("Your New Balance: $" + balance);
+        alert("Thanks for Use JS ATM.")
+    } else {
+    }
 
 
-            if (choice === "4") {
-                alert("Thanks For Use JS ATM.");
-            } else { }
+    if (choice === "4") {
+        alert("Thanks For Use JS ATM.");
+    } else { }
 
 
 
-        } else {
-            alert("Incorrect PIN Code ❗");
-        }
-
-
+} else {
+    alert("Incorrect PIN Code ❗");
+}
